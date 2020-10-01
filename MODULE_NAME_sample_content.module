@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains sample_content.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function MODULE_NAME_sample_content_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the sample_content module.
+    case 'help.page.MODULE_NAME_sample_content':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('A sample content.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function MODULE_NAME_sample_content_theme() {
+  return [
+    'MODULE_NAME_sample_content' => [
+      'render element' => 'children',
+    ],
+  ];
+}
