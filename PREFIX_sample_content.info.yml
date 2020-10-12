@@ -1,6 +1,6 @@
 name: 'Sample Content'
 type: module
-description: 'A sample content.'
+description: 'A custom import sample content module.'
 core: 8.x
 package: 'Custom'
 
