@@ -16,7 +16,7 @@ function custom_default_content_help($route_name, RouteMatchInterface $route_mat
     case 'help.page.custom_default_content':
       $output = '';
       $output .= '<h3>' . t('Custom Default Content') . '</h3>';
-      $output .= '<p>' . t('A custom import content module.') . '</p>';
+      $output .= '<p>' . t('Custom default content module.') . '</p>';
       return $output;
 
     default:

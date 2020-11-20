@@ -1,6 +1,6 @@
 name: 'Custom Default Content'
 type: module
-description: 'A custom import content module.'
+description: 'Custom default content module.'
 core: 8.x
 package: 'Custom'
 
