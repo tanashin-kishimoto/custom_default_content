@@ -1,8 +1,9 @@
 # Custom Default Content
-A custom import content module.
+Custom default content module template.
 
 #### Dependency
-- https://www.drupal.org/project/default_content v^2.0
+- https://www.drupal.org/project/default_content
+- Version ^2.0
 
 #### Document
 - https://www.drupal.org/docs/contributed-modules/default-content-for-d8
