@@ -1,9 +1,10 @@
-name: 'Sample Content'
+name: 'Custom Default Content'
 type: module
-description: 'A custom import sample content module.'
+description: 'A custom import content module.'
 core: 8.x
 package: 'Custom'
 
+# Place a list of uuid here.
 default_content:
   block_content:
     - 
